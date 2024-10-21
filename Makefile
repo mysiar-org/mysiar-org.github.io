@@ -7,5 +7,5 @@ venv::
 
 
 docs::
-	venv/bin/pdoc  --template-dir docs-templates ../python-data-flow/mysiar_data_flow/ -o docs/
-	venv/bin/python changelog.py
+	venv/bin/pdoc  --template-dir docs-templates ../python-data-flow/mysiar_data_flow/ -o mysiar-data-flow/
+
