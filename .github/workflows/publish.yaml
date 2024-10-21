@@ -3,8 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - '*'
-#      - master
+      - master
 
 permissions:
   id-token: write
@@ -29,9 +28,9 @@ jobs:
           cp -r mysiar-data-flow public/
           touch public/check.txt
 
-      - name: Check Preparation
+      - name: List publish folder
         run: |
-          ls -laR public
+          ls -la public
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
