@@ -26,6 +26,7 @@ jobs:
         run: |
           mkdir -p public
           cp -r mysiar-data-flow public/
+          cp -r st_df_table public/
           touch public/check.txt
 
       - name: List publish folder
