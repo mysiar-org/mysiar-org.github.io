@@ -25,8 +25,9 @@ jobs:
       - name: Prepare
         run: |
           mkdir -p public
+          cp mysiar-org/index.html public/ 
           cp -r mysiar-data-flow public/
-          cp -r st_df_table public/
+          cp -r st-df-table public/
           touch public/check.txt
 
       - name: List publish folder

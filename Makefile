@@ -11,6 +11,5 @@ pip::
 
 docs::
 	venv/bin/pdoc  --template-dir docs-templates ../python-data-flow/mysiar_data_flow/ -o mysiar-data-flow/
-	venv/bin/pdoc  --template-dir docs-templates ../st-table/st_df_table/ !st_df_table.example -o st_df_table/
-	#rm -rf ./st_df_table/st_df_table/example.html
+	venv/bin/pdoc  --template-dir docs-templates ../st-table/st_df_table/ !st_df_table.example -o st-df-table/
 
